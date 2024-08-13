@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .box1 {
     position: absolute;
     right: 0;
@@ -210,4 +211,218 @@
     padding: 8px 32px;
     border-radius: 2px;
   }
+=======
+.box1 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 32px;
+  }
+  
+  .left {
+    width: 33.3333%;
+  }
+  
+  .right1 {
+    width: 66.66666%;
+  }
+  
+  .mybox {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .main .material-symbols-outlined.ml1 {
+    margin-left: 8px;
+  }
+  
+  .list-none {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .main .myul li {
+    border: 1px solid #CED4DA;
+    border-top: unset;
+    padding: 0;
+  
+    &:first-child {
+      border-top: 1px solid #CED4DA;
+    }
+  
+    &.action {
+      background: #F8F9FA;
+    }
+  
+    a {
+      display: block;
+      text-decoration: none;
+      color: #212529;
+      display: block;
+    }
+  }
+  
+  .myboxx {
+    justify-content: space-between;
+    padding: 12px;
+  }
+  
+  .author, .time {
+    text-align: right;
+  }
+  
+  .author, .time, .chapter {
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  
+  .ass-title {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  
+  .author {
+    color: #6C757D;
+  }
+  
+  .mycard {
+    border-radius: 0;
+    margin-left: 24px;
+  }
+  
+  .comment {
+    text-align: right;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  
+  .card-head {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #CED4DA;
+    padding: 12px;
+    background: #F8F9FA;
+  
+    &.second {
+      justify-content: flex-start;
+      border-top: 1px solid #CED4DA;
+  
+      .material-symbols-outlined {
+        margin: 0 12px;
+        font-size: 24px;
+      }
+  
+      b {
+        margin-left: 25px;
+      }
+    }
+  }
+  
+  textarea {
+    border: unset;
+    resize: none;
+    width: 100%;
+    min-height: 220px;
+    height: inherit;
+  }
+  
+  .use-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .use-contain {
+    color: #6C757D;
+    font-size: 12px;
+  }
+  
+  .use-name, .use-contain {
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-left: 8px;
+  }
+  
+  .mybbox {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .bg-use {
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+  }
+  
+  .dddiv {
+    width: calc(100% - 56px);
+  }
+  
+  .ttext {
+    margin-left: 8px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  .ml {
+    margin-left: 8px;
+  }
+  
+  .mr {
+    margin-right: 8px;
+  }
+  
+  .hr {
+    margin: 1rem 0 1rem 64px;
+    border: 1px solid #CED4DA;
+  }
+  
+  .mlauto {
+    margin-left: auto;
+    align-items: center;
+  
+    .material-symbols-outlined:nth-child(odd) {
+      font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    }
+  }
+  
+  .ml-24 {
+    margin-left: 24px !important;
+  }
+  
+  .ml-16 {
+    margin-left: 16px;
+  }
+  
+  .mybtn1 {
+    position: relative;
+  }
+  
+  .mybtn2 {
+    position: absolute;
+    top: 2rem;
+    right: -1rem;
+  }
+  
+  .mybtn3 {
+    position: absolute;
+  
+    // top: 2rem;
+    right: 1rem;
+    bottom: 1rem;
+  
+    .btn {
+      padding: 8px 32px;
+      border-radius: 2px;
+    }
+  }
+  
+  .mybtn2 .btn {
+    padding: 8px 32px;
+    border-radius: 2px;
+  }
+>>>>>>> de5a8b18ada994ba74042b967159472788098b44
   
