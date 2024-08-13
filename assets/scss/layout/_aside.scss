@@ -1,0 +1,83 @@
+.aside{
+  background: #F8F9FA;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 296px;
+  display: flex;
+  flex-direction: column;
+  // font-family: "Lato","Roboto Mono";
+  font-family: "Lato";
+}
+.aside .logo{
+  margin: 2rem;
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  height: 40px;
+}
+.material-symbols-outlined {
+  margin: 12px 1rem 12px 2rem;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.aside ul{
+  margin: 0;
+  padding-inline-start: 0;
+  
+}
+.aside ul li a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #212529;
+  font-size: 16px;
+  line-height: 24px;
+  width: 100%;
+
+}
+.aside ul li.action a,
+.aside ul li a:hover{
+    color: #198754;
+}
+.aside ul li{
+  list-style: none;
+  height: 32px;
+  display: flex;
+  font-weight: 600;
+  margin: 12px 0;
+  border-left: transparent 4px solid;
+  
+}
+
+.aside ul li.action,
+.aside ul li:hover{
+  border-left: #198754 4px solid;
+
+}
+.bg-use{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+}
+.use-box{
+  margin: auto 2rem 2rem;
+  display: flex;
+}
+.use-box p{
+margin: 0 0 0 1rem;
+}
+.use-box p.use-name{
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+}
+.use-box p.use-contain{
+    color: #6C757D;
+    font-size: 14px;
+}
